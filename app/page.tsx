@@ -265,7 +265,7 @@ export default function Home() {
                       </div>
                     </Card>
                   ))}
-                  <Button type="button" variant="outline" onClick={() => append({ name: "", advancedPayment: 0 })} className="w-full">
+                  <Button type="button" variant="outline" onClick={() => append({ name: "", advancedPayment: 0, showAdvancedPayment: false })} className="w-full">
                     <Plus className="mr-2 h-4 w-4" /> Add Snack Buddy
                   </Button>
                 </div>
